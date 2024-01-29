@@ -116,6 +116,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+from secrets import test
+  
+print("TEST:", test)
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
